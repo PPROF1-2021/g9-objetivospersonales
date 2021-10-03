@@ -1,7 +1,8 @@
-ISPC<br>
-Grupo 9 del proyecto "Aplicación Digital para administrar objetivos personales"
+## ISPC<br>
 
-Miembros:
+## Grupo 9 del proyecto "Aplicación Digital para administrar objetivos personales"
+
+## **Miembros:**
 <ul>
   <li>Diego Marcel Silva</li>
   <li>López Juan Manuel</li>
