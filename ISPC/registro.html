@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>READY! - Gestor de Proyectos</title>
+         <meta charset="UTF-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+         <meta name="description" content="Realizar seguimiento de objetivos, tareas, rutinas y eventos diarios. Otorgar al usuario la creación de un proyecto personal de corto o largo plazo con el fin de administrar mejor el tiempo, cumplir objetivos y organizar el día a día de manera más eficiente. A su vez conseguir un efecto de satisfacción  al completar tareas con la utilización de recompensas para motivar a la realización de sus proyectos y cumplimientos de objetivos diarios, como por ejemplo; niveles, insignias, eventos, personalización en la app.">
+         <meta name="keywords" content="Gestion de proyectos, Manejo del tiempo, tareas, objetivos">
+         <meta name="robots" content="all">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap" rel="stylesheet">
+        <!-- BOOTSTRAP CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="css/main.css">
+      </head>
+<body class="main-header">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/LogoREADY.png" style="width: 20%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Iniciá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+        <section class="bg-light py-5 main-header">
+        <header class="container">
+        <form action="/action_page.php" class="was-validated" ></form>
+        <div class="form-group">
+            <label for="name">Nombre de usuario:</label>
+            <input type="text" class="form-control" id="name" placeholder="Entre un nombre de Usuario" name="name" required>
+            <div class="valid-feedback">Correcto.</div>
+            <div class="invalid-feedback">Por favor rellene este campo.</div>
+        </div>
+
+        <div class="form-group">
+            <label for="psw">Contraseña:</label>
+            <input type="password" class="form-control" id="psw" placeholder="Entre su Contraseña" name="psw" required>
+            <div class="valid-feedback">Correcto.</div>
+            <div class="invalid-feedback">Por favor rellene este campo.</div>
+        </div>
+
+        <div class="form-group">
+            <label for="mail">Correo Electronico:</label>
+            <input type="text" class="form-control" id="mial" placeholder="Ingrese su Correo" name="mail" required>
+            <div class="valid-feedback">Correcto.</div>
+            <div class="invalid-feedback">Por favor rellene este campo.</div>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-input">
+                <input class="form-check-input" type="checkbox" name="Recordar" required>
+                Acepto vender mi alma y bla bla bla
+                <div class="valid-feedback">Correcto.</div>
+                <div class="invalid-feedback">Marque la casilla para continuar.</div>
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </header>
+    </section>
+</main>
+</body>
+</html>
