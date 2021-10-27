@@ -271,7 +271,8 @@ Recursos para crear el sitio: GitHub, CodeSambox, Visual Studio Code. <br>
 
 ***
 
- 📃 3. Requisitos específicos 
+ 📃 3. Requisitos específicos <br>
+	
 
 ✏️ Product Backlog 
 
@@ -279,7 +280,9 @@ Recursos para crear el sitio: GitHub, CodeSambox, Visual Studio Code. <br>
 Backlog / Todas las tareas: Colocaremos todas las tareas asignadas en el tablón de proyectos. <br>
 In Progress: Muestra el estado del progreso de las tareas. <br>
 Test: Son aquellas tareas que están bajo supervisión y que casi están listas para ser lanzadas. <br>
-Closed: Tareas finalizadas, listas para entregar. <br>
+Closed: Tareas finalizadas, listas para entregar. 
+	
+<br>
 
 ***
 
@@ -294,8 +297,10 @@ Especificación de requisitos de software
 ***
 
 ✏️ N° de sprint : 01 <br>
+	
  
 ✏️ Sprint Backlog:  <br>
+	
 
 * Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
 Backlog / Todas las tareas
@@ -321,21 +326,30 @@ Closed
 * Monica: Realizar el commit del sitio en su estado actual antes de los cambios.
 * Juan e Iván: editar el Interfaz minimalista.
 * Monica: Páginas abren en nuevas pestañas y no deberían.
-* Brenda: Realizar video explicativo e introducción de, Git y GitHub para ayudar a los miembros a acelerar el proyecto. <br>
+* Brenda: Realizar video explicativo e introducción de, Git y GitHub para ayudar a los miembros a acelerar el proyecto. 
 
+<br>
 
+	
 ✏️ Responsabilidades:  <br>
 
 * López Juan Manuel: Co-Líder del proyecto; Programador Front-End, Maquetador Web Modelo HTML.
 * Monica Antich: Desarrollador Back-End / Cambios de estructura al cuerpo del código.
 * Ivan Massimino: Desarrollador Back-End / Aportes para el diseño del interfaz del sitio
 * Diego Marcel Silva: Asistente líder del proyecto / Aportes y cambios en el proyecto en ambos Interfaces de usuario.
-* Brenda Giselle Escobar: Líder del proyecto <br>
+* Brenda Giselle Escobar: Líder del proyecto 
+	
+<br>
 
 
-✏️ Calendario: Puede verse detalladamente en la sección projects, los dias y fechas de la distribucion de tareas. <br>
+✏️ Calendario: Puede verse detalladamente en la sección projects, los dias y fechas de la distribucion de tareas. 
+	
+	
+<br>
 
-✏️ Inconvenientes:  <br>
+✏️ Inconvenientes: 
+	
+<br>
 
 * Cumplir con las especificaciones de la IEV de Desarrollo Web
 * Falta de informacion y datos de los miembros para la pestaña "Equipo"
@@ -356,23 +370,32 @@ Closed
 
 ***
 
-✏️ N° de sprint : 02 <br>
+✏️ N° de sprint : 02 
+	
+<br>
 
-✏️ Sprint Backlog:  <br>
+✏️ Sprint Backlog:  
+	
+<br>
 
 * Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
 
 In Progress
-* Juan: Investigación sobre MySQL y como implementar el sitio
+* Juan: Investigación sobre MySQL y como implementar el sitio 
+	
+<br>
 
 Test
 * Juan: Investigación para conectar MySQL con el sitio.
-* Brenda: Realizar el seguimiento semanal de los miembros.
+* Brenda: Realizar el seguimiento semanal de los miembros. 
+	
+<br>
 
-Closed
+Closed 
+
+<br>
 
 * Brenda: Implementación de programación orientada a Objetos con JavaScript
-
 * Brenda: Armado de un archivo general de Bootstrap de ayuda para los miembros del front.
 * Brenda: Implementación del sitio para subir y cargar las tareas
 * Diego: Nuevas implementaciones visuales para el sitio
@@ -383,25 +406,42 @@ Closed
 * Ivan: Agregar favicon.
 * Juan: editar el Interfaz minimalista.
 * Iván: Personalizar con fuentes de Google.
-* General: Corregir todos los errores a través del feedback de la institución antes de la entrega de Bootstrap <br>
+* General: Corregir todos los errores a través del feedback de la institución antes de la entrega de Bootstrap 
+	
+<br>
 
-✏️ Responsabilidades: <br>
+✏️ Responsabilidades: 
+
+<br>
 
 * López Juan Manuel: Co-Líder del proyecto; Programador Front-End, Maquetador Web Modelo HTML.
 * Monica Antich: Desarrollador Back-End / Cambios de estructura al cuerpo del código.
 * Ivan Massimino: Desarrollador Back-End / Aportes para el diseño del interfaz del sitio
-* Diego Marcel Silva: Asistente líder del proyecto / Aportes y cambios en el proyecto en ambos Interfaces de usuario. <br>
+* Diego Marcel Silva: Asistente líder del proyecto / Aportes y cambios en el proyecto en ambos Interfaces de usuario.
 * Brenda Giselle Escobar: Líder del proyecto
 
-
-✏️ Calendario: Puede verse detalladamente en la sección projects, los dias y fechas de la distribucion de tareas. <br>
+<br>
+	
+✏️ Calendario: Puede verse detalladamente en la sección projects, los dias y fechas de la distribucion de tareas. 
+	
+<br>
  
-✏️ Inconvenientes:  <br>
+✏️ Inconvenientes:  
+	
+<br>
 
-Abiertos
+Abiertos 
+
+<br>
+
 * Implementación de Bases de datos del sitio
 
+<br>
+
 Cerrados
+
+<br>
+	
 * Implementación JavaScript
 * Implementacion para las tareas en Javascript (prioritaras y no prioritarias)
 * Implementacion de programacion orientada a Objetos con JavaScript
