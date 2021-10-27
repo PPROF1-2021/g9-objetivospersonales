@@ -1,0 +1,123 @@
+/* FUENTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --rosa: #ff8692;
+  --amarillo: #fdd661;
+  --gris_tenue: #ffffff48;
+  --celeste_osc: #587ffc;
+  --gris: #797979;
+  --celeste: #92a5fd;
+  --blanco: #e5eaf5;
+  --azul: #1e1e5d;
+
+  --bp: rgb(0, 123, 255);
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+h3 {
+  font-size: 18px;
+}
+
+
+a:hover {
+  color: var(--rosa);
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+
+.navbar li {
+  margin-left: 5%;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 18px;
+  color: var(--bp);
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: var(--rosa);
+}
+
+.main-header {
+  position: relative;
+  height: auto;
+  background-image: url(../assets/img/gestiona_tu_proyecto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 760px) {
+  .main-header {
+    background-image: none;
+  }
+}
+
+@media (min-width: 1174px) {
+  .main-header {
+    height: 100vh;
+  }
+}
+@media (min-width: 1500px) {
+  .main-header {
+    height: 150vh;
+  }
+}
+
+.background-overlay {
+  background: #587ffc;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.backgroundcolor {
+  background-color: var(--bp);
+}
+
+.form-control {
+  background-color: var(--gris_tenue);
+  width: 33%;
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+  width: auto;
+}
+
+.team,
+footer {
+  background: var(--bp);
+}
+
+.tshadow {
+  color: var(--bp);
+  justify-content: center;
+}
+
+.card-body {
+  border: 2px solid var(--bp);
+}
