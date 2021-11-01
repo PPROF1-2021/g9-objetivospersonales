@@ -380,13 +380,16 @@ Closed
 
 * Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
 
+<br>
+	
 In Progress
-* Juan: Investigación sobre MySQL y como implementar el sitio 
+* Juan: Investigación para conectar MySQL con el sitio.
+* Todos: Subir diagrama de bases de datos.
+* Todos: Implementacion de bases de datos al sitio.
 	
 <br>
 
 Test
-* Juan: Investigación para conectar MySQL con el sitio.
 * Brenda: Realizar el seguimiento semanal de los miembros. 
 	
 <br>
