@@ -378,14 +378,12 @@ Closed
 	
 <br>
 
-* Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
+* Todos: Implementacion de bases de datos al sitio.
 
 <br>
 	
 In Progress
-* Juan: Investigación para conectar MySQL con el sitio.
-* Todos: Subir diagrama de bases de datos.
-* Todos: Implementacion de bases de datos al sitio.
+* Implementar los requsitos solicitados en JavaScript para el IEFI de Desarrollo web
 	
 <br>
 
@@ -409,7 +407,11 @@ Closed
 * Ivan: Agregar favicon.
 * Juan: editar el Interfaz minimalista.
 * Iván: Personalizar con fuentes de Google.
-* General: Corregir todos los errores a través del feedback de la institución antes de la entrega de Bootstrap 
+* General: Corregir todos los errores a través del feedback de la institución antes de la entrega de Bootstrap
+* Juan: Investigación para conectar MySQL con el sitio.
+* Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
+* Todos: Subir scripts de bases de datos.
+
 	
 <br>
 
