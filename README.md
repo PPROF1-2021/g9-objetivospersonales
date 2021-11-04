@@ -432,16 +432,6 @@ Closed
 <br>
  
 ✏️ Inconvenientes:  
-	
-<br>
-
-Abiertos 
-
-<br>
-
-* Implementación de Bases de datos del sitio
-
-<br>
 
 Cerrados
 
@@ -455,5 +445,76 @@ Cerrados
 * Implemetar Bootstrap
 * Agregar favicon
 * implementacion visual del archivo JavaScript para darle estilo a los botones y tareas
+* Ivan: Agregar favicon.
+* Juan: editar el Interfaz minimalista.
+* Iván: Personalizar con fuentes de Google.
+* General: Corregir todos los errores a través del feedback de la institución antes de la entrega de Bootstrap
+* Juan: Investigación para conectar MySQL con el sitio.
+* Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
+* Todos: Subir scripts de bases de datos.
+
+***
+
+***
+
+✏️ N° de sprint : 03
+	
+<br>
+
+✏️ Sprint Backlog:  
+	
+<br>
+
+* Todos: Implementacion de bases de datos al sitio.
+
+<br>
+	
+In Progress
+* Implementar los requsitos solicitados en JavaScript para el IEFI de Desarrollo web
+	
+<br>
+
+Test
+* Brenda: Realizar el seguimiento semanal de los miembros. 
+	
+<br>
+
+Closed 
+
+<br>
+
+* Juan: Investigación para conectar MySQL con el sitio.
+* Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
+* Todos: Subir scripts de bases de datos.
+
+	
+<br>
+
+✏️ Responsabilidades: 
+
+<br>
+
+* López Juan Manuel: Co-Líder del proyecto; Programador Front-End, Maquetador Web Modelo HTML.
+* Monica Antich: Desarrollador Back-End / Cambios de estructura al cuerpo del código.
+* Ivan Massimino: Desarrollador Back-End / Aportes para el diseño del interfaz del sitio
+* Diego Marcel Silva: Asistente líder del proyecto / Aportes y cambios en el proyecto en ambos Interfaces de usuario.
+* Brenda Giselle Escobar: Líder del proyecto
+
+<br>
+	
+✏️ Calendario: Puede verse detalladamente en la sección projects, los dias y fechas de la distribucion de tareas. 
+	
+<br>
+ 
+✏️ Inconvenientes:  
+	
+
+Cerrados
+
+<br>
+	
+* Juan: Investigación para conectar MySQL con el sitio.
+* Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
+* Todos: Subir scripts de bases de datos.
 
 ***
