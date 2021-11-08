@@ -465,13 +465,13 @@ Cerrados
 	
 <br>
 
-* Todos: Implementacion de bases de datos al sitio.
 
 <br>
 	
 In Progress
-* Implementar los requsitos solicitados en JavaScript para el IEFI de Desarrollo web
-	
+
+* Todos: Implementacion de bases de datos al sitio.
+
 <br>
 
 Test
@@ -486,6 +486,7 @@ Closed
 * Juan: Investigación para conectar MySQL con el sitio.
 * Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
 * Todos: Subir scripts de bases de datos.
+* Implementar los requsitos solicitados en JavaScript para el IEFI de Desarrollo web
 
 	
 <br>
