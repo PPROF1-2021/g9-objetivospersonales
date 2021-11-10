@@ -86,3 +86,9 @@ body {
 .elemento:hover .elemento_valor {
   transform: translateX(-20px);
 }
+
+#contadorPrioritario, #contadorNoPrioritario{
+  color: #555;
+  font-weight: 300;
+}
+
