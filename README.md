@@ -55,7 +55,6 @@ Crea las carpetas que necesites para poner a prueba los archivos PHP bajo la car
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOTA ACLARATORIA: El sitio está utilizando un dominio con el nombre complejolapasionaria.com.ar, pero nuestro dominio es agregando el ispc.complejolapasionaria.com.ar para ahorrar costos con el hosting.
-	
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	***
