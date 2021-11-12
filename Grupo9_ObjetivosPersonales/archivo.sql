@@ -251,7 +251,7 @@ constraint `Tareas_FinTarea`
 
 -- -----------------------------------------------------
 -- Tabla `ready_bd`.`UsuarioTelefono`
--- -----------------------------------------------------
+-- ------------------------------------------------------
 
 create table if not exists `ready_bd`.`UsuarioTelefono`
 (
