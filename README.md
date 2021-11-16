@@ -524,7 +524,7 @@ IEFI programación web
 
 * Validación de campos vacíos mediante Bootstrap (de acuerdo al template de la web oficial), luego con Javascript la longitud de los campos, tipo de datos en los input. Los campos nombre y apellido deberán validarse con más de 2 caracteres. (Realizado en Registro, los campos Nombre y Apellido, también contiene las validaciones de ingreso de todos los datos)
 
-* Crear una función en JavaScript para mostrar un cálculo de fechas (edad, día de turno, u otro pertinente al proyecto en desarrollo). (Creado en Registro.php ,calcula la fecha y si es menor de edad no permite el registro)
+* Crear una función en JavaScript para mostrar un cálculo de fechas (edad, día de turno, u otro pertinente al proyecto en desarrollo). (Creado en Registro.php ,calcula la fecha y si es menor de la edad solicitada no permite el registro)
 
 * Uno de los formularios debe tener funcionalidad en el botón Enviar, mostrando un Alert de operación exitosa. (Creado en Registro.php , una vez cargado todos los datos con sus respectivas validaciones, en caso de no colocar los datos, muestra un error para pedirle al usuario que ingrese los datos)
 
@@ -532,9 +532,11 @@ IEFI programación web
 
 * Las funciones en JavaScript deberán estar en un archivo llamado funcionesGrupo99.js . Agregar al menos 2 eventos de JavaScript para que el usuario interactúe con el DOM. **(Creado en Registro.php, con todos los eventos de validaciones, también incluye el trabajo realizado en Gestor.php (que tal vez no alcancemos a implementar), luego del ultimo sprint de practicas decidimos priorizar JDBC, pero está finalizada la gestión de tareas. **)
 
-* Informar mediante un documento (puede ser dentro del IEEE830) donde se incorporaron cada uno de los puntos solicitados, luego actualizar en GitHub el mismo. **(Implementado desde aquí pero lo pienso colocar en el IEEE830 **)
+* Informar mediante un documento (puede ser dentro del IEEE830) donde se incorporaron cada uno de los puntos solicitados, luego actualizar en GitHub el mismo. **(Implementado desde aquí)
 
 * Publicar el sitio web final en un hosting gratuito. (Ya tenemos el Hosting listo y funcionando, lo pueden encontrar en el README del repositorio)
+
+**NOTA: La carpeta de JavaScript se movió dentro de assets debido a los cambios implementados para el funcionamiento del Login, es importante informar al equipo docente sobre éste cambio.**
 
 ***
 	
