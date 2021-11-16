@@ -466,7 +466,7 @@ Cerrados
 	
 In Progress
 
-* Todos: Implementacion de bases de datos al sitio.
+* Todos: Realizar video para Prácticas Profesionalizantes.
 
 <br>
 
@@ -483,6 +483,7 @@ Closed
 * Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
 * Todos: Subir scripts de bases de datos.
 * Implementar los requsitos solicitados en JavaScript para el IEFI de Desarrollo web
+* Todos: Implementacion de bases de datos al sitio.
 
 	
 <br>
@@ -510,9 +511,9 @@ Cerrados
 
 <br>
 	
-* Juan: Investigación para conectar MySQL con el sitio.
-* Añadir JavaScript/PHP/Java o similar para interactuar con el usuario a la hora de asignar tareas en la agenda.
 * Todos: Subir scripts de bases de datos.
+* Implementar los requsitos solicitados en JavaScript para el IEFI de Desarrollo web
+* Todos: Implementacion de bases de datos al sitio.
 
 ***
 
@@ -534,3 +535,18 @@ IEFI programación web
 * Informar mediante un documento (puede ser dentro del IEEE830) donde se incorporaron cada uno de los puntos solicitados, luego actualizar en GitHub el mismo. **(Implementado desde aquí pero lo pienso colocar en el IEEE830 **)
 
 * Publicar el sitio web final en un hosting gratuito. (Ya tenemos el Hosting listo y funcionando, lo pueden encontrar en el README del repositorio)
+
+***
+	
+## Sitio Funcionado con Login
+
+NOTA IMPORTANTE: 
+
+* Crear una Base de Datos en PHPMyAdmin llamada "ready_bd" , RESPETANDO LAS MINUSCULAS (Ejecutar Xampp como administrador anteriormente)
+
+* Importar el archivo ready_bd.sql
+
+De ésta manera, podrá visualizar el Login funcionando de forma local en su computadora.
+
+***
+
