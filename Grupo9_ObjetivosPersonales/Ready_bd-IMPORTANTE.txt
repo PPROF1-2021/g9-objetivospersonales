@@ -1,0 +1,5 @@
+Crear una Base de Datos en PHPMyAdmin llamada "ready_bd" , RESPETANDO LAS MINUSCULAS
+(Ejecutar Xampp como administrador anteriormente)
+
+Importar el archivo ready_bd.sql
+
