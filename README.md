@@ -468,12 +468,11 @@ Cerrados
 	
 In Progress
 
-* Todos: Realizar video para Prácticas Profesionalizantes.
+
 
 <br>
 
 Test
-* Brenda: Realizar el seguimiento semanal de los miembros. 
 	
 <br>
 
@@ -486,6 +485,8 @@ Closed
 * Todos: Subir scripts de bases de datos.
 * Implementar los requsitos solicitados en JavaScript para el IEFI de Desarrollo web
 * Todos: Implementacion de bases de datos al sitio.
+* Todos: Realizar video para Prácticas Profesionalizantes.
+* Brenda: Realizar el seguimiento semanal de los miembros. 
 
 	
 <br>
