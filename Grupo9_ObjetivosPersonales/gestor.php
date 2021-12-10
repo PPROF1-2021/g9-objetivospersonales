@@ -23,8 +23,8 @@
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
 
   <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -42,9 +42,9 @@
 </head>
 
 <body onload="cargarApp()" id="bodyGestor">
-    <?php
-      include("header.html");
-    ?>
+  <?php
+    require 'assets/partials/header.html'
+  ?>
   <main id="mainGestor">
     <div class="container-fluid h-auto fondo">
       <div class="row p-5 justify-content-center h-auto">
@@ -144,15 +144,15 @@
     </div>
   </main>
 
-  <?php
-    include("footer.html");
+	<?php
+    require 'assets/partials/footer.html'
   ?>
 
 <!-- SCRIPTS -->
-<script src="js/Dato.js"></script>
-<script src="js/Prioritarios.js"></script>
-<script src="js/NoPrioritarios.js"></script>
-<script src="js/app.js"></script>
+<script src="assets/js/Dato.js"></script>
+<script src="assets/js/Prioritarios.js"></script>
+<script src="assets/js/NoPrioritarios.js"></script>
+<script src="assets/js/app.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
 
 </body>

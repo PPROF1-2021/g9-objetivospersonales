@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Grupo9_ObjetivosPersonales/archivo.sql
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
@@ -340,6 +341,8 @@ constraint `UsuarioEquipo_Equipo`
     on delete no action
     on update no action
 );
+=======
+>>>>>>> main:Grupo9_ObjetivosPersonales/ABMQueries.sql
 
 -- ------------------------------------------------------------------------
 -- 							Insertar registros
@@ -386,8 +389,31 @@ insert into TareaUsuario (Tareas_IdTareas,Usuario_IdUsuario,FechaBaja) values ('
 insert into TareaEquipo (Tareas_IdTareas,Equipo_IdEquipo,FechaBaja) values (1,2,1);
 insert into UsuarioEquipo (Usuario_IdUsuario,Equipo_IdEquipo,FechaBaja) values (1,1,1);
 insert into UsuarioEquipo (Usuario_IdUsuario,Equipo_IdEquipo,FechaBaja) values (2,2,1);
-
-
+update Usuario 
+set 
+    Nombre = 'Lucas'
+where
+    DNI = 4169122;
+update Usuario 
+set 
+    Nombre = 'Tomas'
+where
+    DNI = 4121345;
+    update Usuario 
+set 
+    Nombre = 'Lucas'
+where
+    DNI = 4169122;
+    update Usuario 
+set 
+    Nombre = 'Lara'
+where
+    DNI = 4345454;
+    update Usuario 
+set 
+    Nombre = 'Lyla'
+where
+    DNI = 2344545;
 -- -----------------------------------------------------
 -- Tablas hijas
 -- -----------------------------------------------------

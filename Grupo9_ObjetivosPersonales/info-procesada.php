@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
 
 	<!-- CUSTOM CSS -->
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 
 	<!-- FONT AWESOME -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
@@ -38,25 +38,69 @@
 <body>
 	<!-- HEADER -->
 	<?php
-	include("header.html");
+	require 'assets/partials/header.html';
+
+
+	function console_log($output, $with_script_tags = true)
+	{
+		$js_code = 'console.log(' . json_encode($output, JSON_HEX_TAG) .
+			');';
+		if ($with_script_tags) {
+			$js_code = '<script>' . $js_code . '</script>';
+		}
+		echo $js_code;
+	}
+
+	$server = "localhost";
+	$username = "root";
+	$password = ""; //Ingrese su contraseña de Mysql
+	$database = "ready_bd";
+	
+	// Create connection
+	$conn = mysqli_connect($server, $username, $password, $database);
+	// Check connection
+	if (!$conn) {
+		die("Connection failed: " . mysqli_connect_error());
+	}
+	console_log("Connected successfully");
+
+	$nom = $_POST['name'];
+	$ape = $_POST['lastname'];
+	$ciudad = $_POST['city'];
+	$pais = $_POST['country'];
+	$cp = $_POST['cp'];
+	$tel = $_POST['tel'];
+	$fecha = $_POST['date'];
+	$email = $_POST['email'];
+	$pw = $_POST['password'];
+
+	$sql = "INSERT INTO Usuario (Nombre,Apellido,TipoDoc_IdTipoDoc,DNI,Email,Contraseña,Pais_IdPais,Ciudad_IdCiudad,FechaBaja) VALUES ('$nom','$ape','1','36125641','$email','$pw','1','1',1);";
+	if (mysqli_query($conn, $sql)) {
+		console_log("Nuevo registro creado con exito");
+	} else {
+		console_log("Error: " . $sql . "<br>" . mysqli_error($conn));
+	}
+
+	mysqli_close($conn);
 
 	?>
 	<main id="content">
 		<div class="container-fluid d-flex flex-column align-items-center">
-			<h2 class="titulo exito">Registro finalizado con exito</h2>
+			<h2 class="titulo exito">Registro finalizado con éxito</h2>
 			<section id="sectionregistro">
 				<div class="container">
 					<div class="d-flex justify-content-center row ">
 						<div class="col-lg-12 p-5">
 							<div class="conteiner">
 								<div class="row g3 form-inline">
-									<div class="col-sm-6 mb-3 form-inline"> <!--El echo crea un string en el HTML y asi los muestra-->
-										<label class="mr-3">Nombre</label> 
-										<input type="text" disabled value="<?php echo $_POST['name'] ?>" class="form-control rounded col-auto w-100 pr-3">
+									<div class="col-sm-6 mb-3 form-inline">
+										<!--El echo crea un string en el HTML y asi los muestra-->
+										<label class="mr-3">Nombre</label>
+										<input type="text" disabled value="<?= $nom ?>" class="form-control rounded col-auto w-100 pr-3">
 									</div>
 									<div class="col-sm-6 mb-3 form-inline">
 										<label class="mr-3">Apellido</label>
-										<input type="text" disabled value="<?php echo $_POST['surname'] ?>" class="form-control rounded col-auto w-100 pr-3">
+										<input type="text" disabled value="<?= $ape ?>" class="form-control rounded col-auto w-100 pr-3">
 									</div>
 									<div class="col-sm-6 mb-3 form-inline">
 										<label class="mr-3">Provincia</label>
@@ -84,10 +128,6 @@
 									</div>
 								</div>
 							</div>
-							<h3>¿Como nos conociste? ¡Contanos!</h3></br>
-							<div class="container input-group mb-3">
-								<textareacols="30" rows="10" disabled class="form-control"><?php echo $_POST['mensaje'] ?></textarea>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -95,7 +135,7 @@
 		</div>
 	</main>
 	<?php
-	include("footer.html");
+	require 'assets/partials/footer.html'
 	?>
 
 	<!-- SCRIPTS -->
@@ -105,9 +145,9 @@
 
 	<script>
 		setTimeout(() => {
-			window.location.assign('./index.php')
+			window.location.assign('login.php')
 			document.getElementById('conteo').textContent = 'conteo iniciado'
-		}, 15000) //El contador para redireccion al index
+		}, 5000) //El contador para redireccion al index
 	</script>
 	<!-- SCRIPTS -->
 </body>

@@ -22,8 +22,8 @@
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
 
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -44,7 +44,7 @@
 
 <body id="bodyContacto">
     <?php
-      include("header.html");
+        require 'assets/partials/header.html'
     ?>
     <main class="bg-white" id="mainContacto">
         <section id="sectionContacto">
@@ -102,12 +102,12 @@
         </section>
     </main>
 
-    <?php
-      include("footer.html");
-    ?>
+	<?php
+        require 'assets/partials/footer.html'
+  	?>
     <!-- SCRIPTS -->
 
-    <script src="funcionesGrupo9-objetivosPersonales/validacion.js"></script>
+    <script src="assets/js/funcionesGrupo9-objetivosPersonales/validacion.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>

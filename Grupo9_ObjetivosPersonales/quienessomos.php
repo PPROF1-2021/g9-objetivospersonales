@@ -23,8 +23,8 @@
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
   <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -44,9 +44,9 @@
 </head>
 
 <body>
-    <?php
-      include("header.html");
-    ?>
+  <?php
+    require 'assets/partials/header.html'
+  ?>
   <main>
 
     <!-- TEAM -->
@@ -204,8 +204,8 @@
       </div>
     </section>
   </main>
-  <?php
-    include("footer.html");
+	<?php
+    require 'assets/partials/footer.html'
   ?>
   <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -3,7 +3,7 @@ function init() {
 	"use strict";
 	var forms = document.querySelectorAll(".needs-validation"); 
 	Array.prototype.slice.call(forms).forEach(function (form) { //por cada elemento del array, llama a una funcion (call) slice (corta el array, regresa una copia de ese pedazo de codigo)
-		form.addEventListener( //subscribe el formulario a un evento
+		form?.addEventListener( //subscribe el formulario a un evento
 			"submit",
 			function (event) {
 				var inputs = document.querySelectorAll(`#${form.id} input, #${form.id} textarea, #${form.id} select`)
@@ -19,7 +19,7 @@ function init() {
 					alert('Error en los datos del formulario, asegurese de cargar los datos como corresponden');
 				}
 				else {
-					alert('Operacion realizada con exito!!, se redireccionará el sitio principal en 15 segundos')
+					alert('Operacion realizada con exito!!, se redireccionará el sitio principal en 5 segundos')
 					setTimeout(() => { //Para que espere despues del alert del usuario, unos segundos y empieza el contador para devolver los datos
 						var params = {}; //Busca todos los inputs con el id del formulario y recupera todos los input, 
 						document.querySelectorAll(`#${form.id} input, #${form.id} textarea`).forEach(input => {
@@ -70,7 +70,7 @@ function calcularEdad(fecha) {
 }
 
 document.querySelectorAll('input[type="text"]').forEach(item => {
-	item.addEventListener('keyup', (evt) => {
+	item?.addEventListener('keyup', (evt) => {
 		var error = false; 
 		if (evt.currentTarget.dataset.minlenght) { //Verificar si contiene el dato con la cantidad minima de caracteres minlenght
 			if (evt.currentTarget.value.length < evt.currentTarget.dataset.minlenght) {
@@ -98,7 +98,7 @@ document.querySelectorAll('input[type="text"]').forEach(item => {
 });
 //Lo mismo con los tipo telefono, el formato sea correcto
 document.querySelectorAll('input[type="tel"]').forEach(item => {
-	item.addEventListener('keyup', (evt) => {
+	item?.addEventListener('keyup', (evt) => {
 		if (/^\(\d{3}\)\d{5,}|^\d{8,}/.test(evt.currentTarget.value)) {
 			evt.currentTarget.classList.add('is-valid');
 			evt.currentTarget.classList.remove('is-invalid');
@@ -113,7 +113,7 @@ document.querySelectorAll('input[type="tel"]').forEach(item => {
 
 //Lo mismo con los tipo email, valida el formato email
 document.querySelectorAll('input[type="email"]').forEach(item => {
-	item.addEventListener('keyup', (evt) => {
+	item?.addEventListener('keyup', (evt) => {
 		if (/\w+@\w+/.test(evt.currentTarget.value)) {
 			evt.currentTarget.classList.add('is-valid');
 			evt.currentTarget.classList.remove('is-invalid');
@@ -126,7 +126,7 @@ document.querySelectorAll('input[type="email"]').forEach(item => {
 	})
 }, false);
 //Lo mismo pero con password, sea igual al campo password
-document.getElementById('validacionConfPassword').addEventListener('keyup', (evt) => {
+document.getElementById('validacionConfPassword')?.addEventListener('keyup', (evt) => {
 	let pass = document.getElementById('validacionPassword').value;
 	if (evt.currentTarget.value === pass) {
 		evt.currentTarget.classList.add('is-valid');
@@ -140,7 +140,7 @@ document.getElementById('validacionConfPassword').addEventListener('keyup', (evt
 });
 //lo mismo pero valida con fechas, pero con la edad minima
 document.querySelectorAll('input[type="date"][data-minage]').forEach(item => {
-	item.addEventListener('input', (evt) => {
+	item?.addEventListener('input', (evt) => {
 		//Calcular edad realizado arriba, minage en el HTML de Registro.php
 		if (calcularEdad(evt.currentTarget.value) < evt.currentTarget.dataset.minage) {
 			document.querySelector(`#${evt.currentTarget.id} ~ .invalid-feedback`).textContent = `Debes tener mas de ${evt.currentTarget.dataset.minage} años`;

@@ -22,8 +22,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 	<!-- CUSTOM CSS -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 
 	<!-- FONT AWESOME -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -40,8 +40,8 @@
 
 <body>
 	<?php
-	include("header.html");
-	?>
+    	require 'assets/partials/header.html'
+  	?>
 	<main class="bg-white" id="mainRegistro">
 		<nav aria-label="breadcrumb" id="navRegistro">
 			<ol class="breadcrumb">
@@ -49,16 +49,13 @@
 				<li class="breadcrumb-item active" aria-current="page">Registrar</li>
 			</ol>
 		</nav>
-
-
 		<!-- Modal de errores -->
-
 		<section id="sectionregistro">
 			<div class="container">
 				<div class="d-flex justify-content-center row ">
 					<div class="col-lg-12 p-5">
 						<h2 class="mb-3 text-dark">Registro</h2>
-						<form id="formRegistro" class="needs-validation" novalidate>
+						<form action="info-procesada.php"  method="post" id="formRegistro" class="needs-validation" novalidate>
 							<div class="conteiner">
 								<div class="row g3 form-inline">
 									<div class="col-sm-6 mb-3 form-inline">
@@ -71,7 +68,7 @@
 									</div>
 									<div class="col-sm-6 mb-3 form-inline">
 										<label class="mr-3">Apellido</label>
-										<input type="text" pattern="[^0-9]{2,}" class="form-control rounded col-auto w-100 pr-3" id="validacionApellido" aria-describedby="feed-apellido" required name="surname" data-minlenght="3" data-nonumber="true">
+										<input type="text" pattern="[^0-9]{2,}" class="form-control rounded col-auto w-100 pr-3" id="validacionApellido" aria-describedby="feed-apellido" required name="lastname" data-minlenght="3" data-nonumber="true">
 										<div id="feed-apellido" class="invalid-feedback">
 											Falta tu Apellido!
 										</div>
@@ -121,29 +118,24 @@
 									</div>
 									<div class="col-sm-6 mb-3 form-inline">
 										<label for="validationDefaultUsername" class="mr-3">Contraseña</label>
-										<input type="password" class="form-control rounded w-100 pr-3" id="validacionPassword" aria-describedby="inputGroupPrepend2" aria-describedby="feed-pass" required>
+										<input type="password"
+										name="password" class="form-control rounded w-100 pr-3" id="validacionPassword" aria-describedby="inputGroupPrepend2" aria-describedby="feed-pass" required>
 										<div id="feed-pass" class="invalid-feedback">
 											Falta tu Clave!
 										</div>
 									</div>
 									<div class="col-sm-6 mb-3 form-inline">
 										<label class="mr-3">Confirmar contraseña</label>
-										<input type="password" class="form-control rounded w-100 pr-3" id="validacionConfPassword" aria-describedby="feed-confpass" required name="password">
+										<input type="password" class="form-control rounded w-100 pr-3" id="validacionConfPassword" aria-describedby="feed-confpass" required name="repassword">
 										<div id="feed-confpass" class="invalid-feedback">
 											Falta tu Clave!
 										</div>
 									</div>
 								</div>
 							</div>
-							<form>
-								<h3>¿Como nos conociste? ¡Contanos!</h3></br>
-								<div class="container input-group mb-3">
-									<textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
-								</div>
 								<button type="submit" class="btn btn-primary btn-block btn-md col-auto rounded w-auto">Registrarse</button>
-							</form>
-					</div>
-					</form>
+						</form>
+					</div>	
 				</div>
 			</div>
 		</section>
@@ -151,13 +143,13 @@
 
 	<!-- Footer -->
 	<?php
-	include("footer.html");
-	?>
+    	require 'assets/partials/footer.html'
+  	?>
 	<!-- SCRIPTS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	<script src="js/funcionesGrupo9-objetivosPersonales.js"></script>
+	<script src="assets/js/funcionesGrupo9-objetivosPersonales.js"></script>
 	<!-- SCRIPTS -->
 
 </body>

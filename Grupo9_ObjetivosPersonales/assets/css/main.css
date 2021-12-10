@@ -63,7 +63,7 @@ button {
 .main-header {
   position: relative;
   height: auto;
-  background-image: url(../assets/img/gestiona_tu_proyecto.jpg);
+  background-image: url(../../assets/img/gestionatuproyecto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -32,8 +32,8 @@
     />
 
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
     <!-- FONT AWESOME -->
     <link
@@ -76,7 +76,7 @@
 
   <body>
     <?php
-      include("header.html");
+      require 'assets/partials/header.html'
     ?>
     <main id="mainPrivacidad">
       <!-- ACCORDION -->
@@ -539,8 +539,8 @@
       </section>
     </main>
     <?php
-      include("footer.html");
-    ?>
+    	require 'assets/partials/footer.html'
+  	?>
 
     <!-- SCRIPTS -->
     <script

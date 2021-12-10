@@ -22,8 +22,8 @@
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
 
   <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/main.css"/>
 
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -43,7 +43,7 @@
 <body>
   <!-- HEADER -->
   <?php
-    include("header.html");
+    require 'assets/partials/header.html'
   ?>
   <main id="content">
     
@@ -57,9 +57,11 @@
         <div class="container">
           <div class="row d-flex h-100 tshadow align-content-center">
             <div class="col-lg-4 bg-white rounded p-5 shadow">
-              <h1>ORGANIZA TUS PROYECTOS Y OBJETIVOS PERSONALES</h1>
+              <h1>ORGANIZÁ TUS PROYECTOS Y OBJETIVOS PERSONALES</h1>
               <br />
-              <a href="registro.php" class="btn btn-primary"> Comenzar </a>
+              <h3 class="mb-3">Para continuar, seleccioná una opción.</h3>
+              <a href="login.php" class="btn btn-primary m-2">Ingresar</a>
+              <a href="registro.php" class="btn btn-primary m-2">Registrar</a>
             </div>
             <div class="col-8"></div>
           </div>
@@ -130,8 +132,8 @@
       </div>
     </section>
   </main>
-  <?php
-    include("footer.html");
+	<?php
+    require 'assets/partials/footer.html'
   ?>
 
   <!-- SCRIPTS -->
